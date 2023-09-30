@@ -1,0 +1,954 @@
+{
+    "0": {
+        "_BookEntry__bookid": 0,
+        "_BookEntry__title": "a",
+        "_BookEntry__author": "a",
+        "_BookEntry__isbn": 0,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "1": {
+        "_BookEntry__bookid": 1,
+        "_BookEntry__title": "Hydrogen",
+        "_BookEntry__author": "H",
+        "_BookEntry__isbn": 1,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "2": {
+        "_BookEntry__bookid": 2,
+        "_BookEntry__title": "Helium",
+        "_BookEntry__author": "He",
+        "_BookEntry__isbn": 2,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "3": {
+        "_BookEntry__bookid": 3,
+        "_BookEntry__title": "Lithium",
+        "_BookEntry__author": "Li",
+        "_BookEntry__isbn": 3,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "4": {
+        "_BookEntry__bookid": 4,
+        "_BookEntry__title": "Beryllium",
+        "_BookEntry__author": "Be",
+        "_BookEntry__isbn": 4,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "5": {
+        "_BookEntry__bookid": 5,
+        "_BookEntry__title": "Boron",
+        "_BookEntry__author": "B",
+        "_BookEntry__isbn": 5,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "6": {
+        "_BookEntry__bookid": 6,
+        "_BookEntry__title": "Carbon",
+        "_BookEntry__author": "C",
+        "_BookEntry__isbn": 6,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "7": {
+        "_BookEntry__bookid": 7,
+        "_BookEntry__title": "Nitrogen",
+        "_BookEntry__author": "N",
+        "_BookEntry__isbn": 7,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "8": {
+        "_BookEntry__bookid": 8,
+        "_BookEntry__title": "Oxygen",
+        "_BookEntry__author": "O",
+        "_BookEntry__isbn": 8,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "9": {
+        "_BookEntry__bookid": 9,
+        "_BookEntry__title": "Fluorine",
+        "_BookEntry__author": "F",
+        "_BookEntry__isbn": 9,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "10": {
+        "_BookEntry__bookid": 10,
+        "_BookEntry__title": "Neon",
+        "_BookEntry__author": "Ne",
+        "_BookEntry__isbn": 10,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "11": {
+        "_BookEntry__bookid": 11,
+        "_BookEntry__title": "Sodium",
+        "_BookEntry__author": "Na",
+        "_BookEntry__isbn": 11,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "12": {
+        "_BookEntry__bookid": 12,
+        "_BookEntry__title": "Magnesium",
+        "_BookEntry__author": "Mg",
+        "_BookEntry__isbn": 12,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "13": {
+        "_BookEntry__bookid": 13,
+        "_BookEntry__title": "Aluminium",
+        "_BookEntry__author": "Al",
+        "_BookEntry__isbn": 13,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "14": {
+        "_BookEntry__bookid": 14,
+        "_BookEntry__title": "Silicon",
+        "_BookEntry__author": "Si",
+        "_BookEntry__isbn": 14,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "15": {
+        "_BookEntry__bookid": 15,
+        "_BookEntry__title": "Phosphorus",
+        "_BookEntry__author": "P",
+        "_BookEntry__isbn": 15,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "16": {
+        "_BookEntry__bookid": 16,
+        "_BookEntry__title": "Sulfur",
+        "_BookEntry__author": "S",
+        "_BookEntry__isbn": 16,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "17": {
+        "_BookEntry__bookid": 17,
+        "_BookEntry__title": "Chlorine",
+        "_BookEntry__author": "Cl",
+        "_BookEntry__isbn": 17,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "18": {
+        "_BookEntry__bookid": 18,
+        "_BookEntry__title": "Argon",
+        "_BookEntry__author": "Ar",
+        "_BookEntry__isbn": 18,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "19": {
+        "_BookEntry__bookid": 19,
+        "_BookEntry__title": "Potassium",
+        "_BookEntry__author": "K",
+        "_BookEntry__isbn": 19,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "20": {
+        "_BookEntry__bookid": 20,
+        "_BookEntry__title": "Calcium",
+        "_BookEntry__author": "Ca",
+        "_BookEntry__isbn": 20,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "21": {
+        "_BookEntry__bookid": 21,
+        "_BookEntry__title": "Scandium",
+        "_BookEntry__author": "Sc",
+        "_BookEntry__isbn": 21,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "22": {
+        "_BookEntry__bookid": 22,
+        "_BookEntry__title": "Titanium",
+        "_BookEntry__author": "Ti",
+        "_BookEntry__isbn": 22,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "23": {
+        "_BookEntry__bookid": 23,
+        "_BookEntry__title": "Vanadium",
+        "_BookEntry__author": "V",
+        "_BookEntry__isbn": 23,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "24": {
+        "_BookEntry__bookid": 24,
+        "_BookEntry__title": "Chromium",
+        "_BookEntry__author": "Cr",
+        "_BookEntry__isbn": 24,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "25": {
+        "_BookEntry__bookid": 25,
+        "_BookEntry__title": "Manganese",
+        "_BookEntry__author": "Mn",
+        "_BookEntry__isbn": 25,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "26": {
+        "_BookEntry__bookid": 26,
+        "_BookEntry__title": "Iron",
+        "_BookEntry__author": "Fe",
+        "_BookEntry__isbn": 26,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "27": {
+        "_BookEntry__bookid": 27,
+        "_BookEntry__title": "Cobalt",
+        "_BookEntry__author": "Co",
+        "_BookEntry__isbn": 27,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "28": {
+        "_BookEntry__bookid": 28,
+        "_BookEntry__title": "Nickel",
+        "_BookEntry__author": "Ni",
+        "_BookEntry__isbn": 28,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "29": {
+        "_BookEntry__bookid": 29,
+        "_BookEntry__title": "Copper",
+        "_BookEntry__author": "Cu",
+        "_BookEntry__isbn": 29,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "30": {
+        "_BookEntry__bookid": 30,
+        "_BookEntry__title": "Zinc",
+        "_BookEntry__author": "Zn",
+        "_BookEntry__isbn": 30,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "31": {
+        "_BookEntry__bookid": 31,
+        "_BookEntry__title": "Gallium",
+        "_BookEntry__author": "Ga",
+        "_BookEntry__isbn": 31,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "32": {
+        "_BookEntry__bookid": 32,
+        "_BookEntry__title": "Germanium",
+        "_BookEntry__author": "Ge",
+        "_BookEntry__isbn": 32,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "33": {
+        "_BookEntry__bookid": 33,
+        "_BookEntry__title": "Arsenic",
+        "_BookEntry__author": "As",
+        "_BookEntry__isbn": 33,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "34": {
+        "_BookEntry__bookid": 34,
+        "_BookEntry__title": "Selenium",
+        "_BookEntry__author": "Se",
+        "_BookEntry__isbn": 34,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "35": {
+        "_BookEntry__bookid": 35,
+        "_BookEntry__title": "Bromine",
+        "_BookEntry__author": "Br",
+        "_BookEntry__isbn": 35,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "36": {
+        "_BookEntry__bookid": 36,
+        "_BookEntry__title": "Krypton",
+        "_BookEntry__author": "Kr",
+        "_BookEntry__isbn": 36,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "37": {
+        "_BookEntry__bookid": 37,
+        "_BookEntry__title": "Rubidium",
+        "_BookEntry__author": "Rb",
+        "_BookEntry__isbn": 37,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "38": {
+        "_BookEntry__bookid": 38,
+        "_BookEntry__title": "Strontium",
+        "_BookEntry__author": "Sr",
+        "_BookEntry__isbn": 38,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "39": {
+        "_BookEntry__bookid": 39,
+        "_BookEntry__title": "Yttrium",
+        "_BookEntry__author": "Y",
+        "_BookEntry__isbn": 39,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "40": {
+        "_BookEntry__bookid": 40,
+        "_BookEntry__title": "Zirconium",
+        "_BookEntry__author": "Zr",
+        "_BookEntry__isbn": 40,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "41": {
+        "_BookEntry__bookid": 41,
+        "_BookEntry__title": "Niobium",
+        "_BookEntry__author": "Nb",
+        "_BookEntry__isbn": 41,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "42": {
+        "_BookEntry__bookid": 42,
+        "_BookEntry__title": "Molybdenum",
+        "_BookEntry__author": "Mo",
+        "_BookEntry__isbn": 42,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "43": {
+        "_BookEntry__bookid": 43,
+        "_BookEntry__title": "Technetium",
+        "_BookEntry__author": "Tc",
+        "_BookEntry__isbn": 43,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "44": {
+        "_BookEntry__bookid": 44,
+        "_BookEntry__title": "Ruthenium",
+        "_BookEntry__author": "Ru",
+        "_BookEntry__isbn": 44,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "45": {
+        "_BookEntry__bookid": 45,
+        "_BookEntry__title": "Rhodium",
+        "_BookEntry__author": "Rh",
+        "_BookEntry__isbn": 45,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "46": {
+        "_BookEntry__bookid": 46,
+        "_BookEntry__title": "Palladium",
+        "_BookEntry__author": "Pd",
+        "_BookEntry__isbn": 46,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "47": {
+        "_BookEntry__bookid": 47,
+        "_BookEntry__title": "Silver",
+        "_BookEntry__author": "Ag",
+        "_BookEntry__isbn": 47,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "48": {
+        "_BookEntry__bookid": 48,
+        "_BookEntry__title": "Cadmium",
+        "_BookEntry__author": "Cd",
+        "_BookEntry__isbn": 48,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "49": {
+        "_BookEntry__bookid": 49,
+        "_BookEntry__title": "Indium",
+        "_BookEntry__author": "In",
+        "_BookEntry__isbn": 49,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "50": {
+        "_BookEntry__bookid": 50,
+        "_BookEntry__title": "Tin",
+        "_BookEntry__author": "Sn",
+        "_BookEntry__isbn": 50,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "51": {
+        "_BookEntry__bookid": 51,
+        "_BookEntry__title": "Antimony",
+        "_BookEntry__author": "Sb",
+        "_BookEntry__isbn": 51,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "52": {
+        "_BookEntry__bookid": 52,
+        "_BookEntry__title": "Tellurium",
+        "_BookEntry__author": "Te",
+        "_BookEntry__isbn": 52,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "53": {
+        "_BookEntry__bookid": 53,
+        "_BookEntry__title": "Iodine",
+        "_BookEntry__author": "I",
+        "_BookEntry__isbn": 53,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "54": {
+        "_BookEntry__bookid": 54,
+        "_BookEntry__title": "Xenon",
+        "_BookEntry__author": "Xe",
+        "_BookEntry__isbn": 54,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "55": {
+        "_BookEntry__bookid": 55,
+        "_BookEntry__title": "Caesium",
+        "_BookEntry__author": "Cs",
+        "_BookEntry__isbn": 55,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "56": {
+        "_BookEntry__bookid": 56,
+        "_BookEntry__title": "Barium",
+        "_BookEntry__author": "Ba",
+        "_BookEntry__isbn": 56,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "57": {
+        "_BookEntry__bookid": 57,
+        "_BookEntry__title": "Lanthanum",
+        "_BookEntry__author": "La",
+        "_BookEntry__isbn": 57,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "58": {
+        "_BookEntry__bookid": 58,
+        "_BookEntry__title": "Cerium",
+        "_BookEntry__author": "Ce",
+        "_BookEntry__isbn": 58,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "59": {
+        "_BookEntry__bookid": 59,
+        "_BookEntry__title": "Praseodymium",
+        "_BookEntry__author": "Pr",
+        "_BookEntry__isbn": 59,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "60": {
+        "_BookEntry__bookid": 60,
+        "_BookEntry__title": "Neodymium",
+        "_BookEntry__author": "Nd",
+        "_BookEntry__isbn": 60,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "61": {
+        "_BookEntry__bookid": 61,
+        "_BookEntry__title": "Promethium",
+        "_BookEntry__author": "Pm",
+        "_BookEntry__isbn": 61,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "62": {
+        "_BookEntry__bookid": 62,
+        "_BookEntry__title": "Samarium",
+        "_BookEntry__author": "Sm",
+        "_BookEntry__isbn": 62,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "63": {
+        "_BookEntry__bookid": 63,
+        "_BookEntry__title": "Europium",
+        "_BookEntry__author": "Eu",
+        "_BookEntry__isbn": 63,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "64": {
+        "_BookEntry__bookid": 64,
+        "_BookEntry__title": "Gadolinium",
+        "_BookEntry__author": "Gd",
+        "_BookEntry__isbn": 64,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "65": {
+        "_BookEntry__bookid": 65,
+        "_BookEntry__title": "Terbium",
+        "_BookEntry__author": "Tb",
+        "_BookEntry__isbn": 65,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "66": {
+        "_BookEntry__bookid": 66,
+        "_BookEntry__title": "Dysprosium",
+        "_BookEntry__author": "Dy",
+        "_BookEntry__isbn": 66,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "67": {
+        "_BookEntry__bookid": 67,
+        "_BookEntry__title": "Holmium",
+        "_BookEntry__author": "Ho",
+        "_BookEntry__isbn": 67,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "68": {
+        "_BookEntry__bookid": 68,
+        "_BookEntry__title": "Erbium",
+        "_BookEntry__author": "Er",
+        "_BookEntry__isbn": 68,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "69": {
+        "_BookEntry__bookid": 69,
+        "_BookEntry__title": "Thulium",
+        "_BookEntry__author": "Tm",
+        "_BookEntry__isbn": 69,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "70": {
+        "_BookEntry__bookid": 70,
+        "_BookEntry__title": "Ytterbium",
+        "_BookEntry__author": "Yb",
+        "_BookEntry__isbn": 70,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "71": {
+        "_BookEntry__bookid": 71,
+        "_BookEntry__title": "Lutetium",
+        "_BookEntry__author": "Lu",
+        "_BookEntry__isbn": 71,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "72": {
+        "_BookEntry__bookid": 72,
+        "_BookEntry__title": "Hafnium",
+        "_BookEntry__author": "Hf",
+        "_BookEntry__isbn": 72,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "73": {
+        "_BookEntry__bookid": 73,
+        "_BookEntry__title": "Tantalum",
+        "_BookEntry__author": "Ta",
+        "_BookEntry__isbn": 73,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "74": {
+        "_BookEntry__bookid": 74,
+        "_BookEntry__title": "Tungsten",
+        "_BookEntry__author": "W",
+        "_BookEntry__isbn": 74,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "75": {
+        "_BookEntry__bookid": 75,
+        "_BookEntry__title": "Rhenium",
+        "_BookEntry__author": "Re",
+        "_BookEntry__isbn": 75,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "76": {
+        "_BookEntry__bookid": 76,
+        "_BookEntry__title": "Osmium",
+        "_BookEntry__author": "Os",
+        "_BookEntry__isbn": 76,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "77": {
+        "_BookEntry__bookid": 77,
+        "_BookEntry__title": "Iridium",
+        "_BookEntry__author": "Ir",
+        "_BookEntry__isbn": 77,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "78": {
+        "_BookEntry__bookid": 78,
+        "_BookEntry__title": "Platinum",
+        "_BookEntry__author": "Pt",
+        "_BookEntry__isbn": 78,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "79": {
+        "_BookEntry__bookid": 79,
+        "_BookEntry__title": "Gold",
+        "_BookEntry__author": "Au",
+        "_BookEntry__isbn": 79,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "80": {
+        "_BookEntry__bookid": 80,
+        "_BookEntry__title": "Mercury",
+        "_BookEntry__author": "Hg",
+        "_BookEntry__isbn": 80,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "81": {
+        "_BookEntry__bookid": 81,
+        "_BookEntry__title": "Thallium",
+        "_BookEntry__author": "Tl",
+        "_BookEntry__isbn": 81,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "82": {
+        "_BookEntry__bookid": 82,
+        "_BookEntry__title": "Lead",
+        "_BookEntry__author": "Pb",
+        "_BookEntry__isbn": 82,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "83": {
+        "_BookEntry__bookid": 83,
+        "_BookEntry__title": "Bismuth",
+        "_BookEntry__author": "Bi",
+        "_BookEntry__isbn": 83,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "84": {
+        "_BookEntry__bookid": 84,
+        "_BookEntry__title": "Polonium",
+        "_BookEntry__author": "Po",
+        "_BookEntry__isbn": 84,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "85": {
+        "_BookEntry__bookid": 85,
+        "_BookEntry__title": "Astatine",
+        "_BookEntry__author": "At",
+        "_BookEntry__isbn": 85,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "86": {
+        "_BookEntry__bookid": 86,
+        "_BookEntry__title": "Radon",
+        "_BookEntry__author": "Rn",
+        "_BookEntry__isbn": 86,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "87": {
+        "_BookEntry__bookid": 87,
+        "_BookEntry__title": "Francium",
+        "_BookEntry__author": "Fr",
+        "_BookEntry__isbn": 87,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "88": {
+        "_BookEntry__bookid": 88,
+        "_BookEntry__title": "Radium",
+        "_BookEntry__author": "Ra",
+        "_BookEntry__isbn": 88,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "89": {
+        "_BookEntry__bookid": 89,
+        "_BookEntry__title": "Actinium",
+        "_BookEntry__author": "Ac",
+        "_BookEntry__isbn": 89,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "90": {
+        "_BookEntry__bookid": 90,
+        "_BookEntry__title": "Thorium",
+        "_BookEntry__author": "Th",
+        "_BookEntry__isbn": 90,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "91": {
+        "_BookEntry__bookid": 91,
+        "_BookEntry__title": "Protactinium",
+        "_BookEntry__author": "Pa",
+        "_BookEntry__isbn": 91,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "92": {
+        "_BookEntry__bookid": 92,
+        "_BookEntry__title": "Uranium",
+        "_BookEntry__author": "U",
+        "_BookEntry__isbn": 92,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "93": {
+        "_BookEntry__bookid": 93,
+        "_BookEntry__title": "Neptunium",
+        "_BookEntry__author": "Np",
+        "_BookEntry__isbn": 93,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "94": {
+        "_BookEntry__bookid": 94,
+        "_BookEntry__title": "Plutonium",
+        "_BookEntry__author": "Pu",
+        "_BookEntry__isbn": 94,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "95": {
+        "_BookEntry__bookid": 95,
+        "_BookEntry__title": "Americium",
+        "_BookEntry__author": "Am",
+        "_BookEntry__isbn": 95,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "96": {
+        "_BookEntry__bookid": 96,
+        "_BookEntry__title": "Curium",
+        "_BookEntry__author": "Cm",
+        "_BookEntry__isbn": 96,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "97": {
+        "_BookEntry__bookid": 97,
+        "_BookEntry__title": "Berkelium",
+        "_BookEntry__author": "Bk",
+        "_BookEntry__isbn": 97,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "98": {
+        "_BookEntry__bookid": 98,
+        "_BookEntry__title": "Californium",
+        "_BookEntry__author": "Cf",
+        "_BookEntry__isbn": 98,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "99": {
+        "_BookEntry__bookid": 99,
+        "_BookEntry__title": "Einsteinium",
+        "_BookEntry__author": "Es",
+        "_BookEntry__isbn": 99,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "100": {
+        "_BookEntry__bookid": 100,
+        "_BookEntry__title": "Fermium",
+        "_BookEntry__author": "Fm",
+        "_BookEntry__isbn": 100,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "101": {
+        "_BookEntry__bookid": 101,
+        "_BookEntry__title": "Mendelevium",
+        "_BookEntry__author": "Md",
+        "_BookEntry__isbn": 101,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "102": {
+        "_BookEntry__bookid": 102,
+        "_BookEntry__title": "Nobelium",
+        "_BookEntry__author": "No",
+        "_BookEntry__isbn": 102,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "103": {
+        "_BookEntry__bookid": 103,
+        "_BookEntry__title": "Lawrencium",
+        "_BookEntry__author": "Lr",
+        "_BookEntry__isbn": 103,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "104": {
+        "_BookEntry__bookid": 104,
+        "_BookEntry__title": "Rutherfordium",
+        "_BookEntry__author": "Rf",
+        "_BookEntry__isbn": 104,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "105": {
+        "_BookEntry__bookid": 105,
+        "_BookEntry__title": "Dubnium",
+        "_BookEntry__author": "Db",
+        "_BookEntry__isbn": 105,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "106": {
+        "_BookEntry__bookid": 106,
+        "_BookEntry__title": "Seaborgium",
+        "_BookEntry__author": "Sg",
+        "_BookEntry__isbn": 106,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "107": {
+        "_BookEntry__bookid": 107,
+        "_BookEntry__title": "Bohrium",
+        "_BookEntry__author": "Bh",
+        "_BookEntry__isbn": 107,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "108": {
+        "_BookEntry__bookid": 108,
+        "_BookEntry__title": "Hassium",
+        "_BookEntry__author": "Hs",
+        "_BookEntry__isbn": 108,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "109": {
+        "_BookEntry__bookid": 109,
+        "_BookEntry__title": "Meitnerium",
+        "_BookEntry__author": "Mt",
+        "_BookEntry__isbn": 109,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "110": {
+        "_BookEntry__bookid": 110,
+        "_BookEntry__title": "Darmstadtium",
+        "_BookEntry__author": "Ds",
+        "_BookEntry__isbn": 110,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "111": {
+        "_BookEntry__bookid": 111,
+        "_BookEntry__title": "Roentgenium",
+        "_BookEntry__author": "Rg",
+        "_BookEntry__isbn": 111,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "112": {
+        "_BookEntry__bookid": 112,
+        "_BookEntry__title": "Copernicium",
+        "_BookEntry__author": "Cn",
+        "_BookEntry__isbn": 112,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "113": {
+        "_BookEntry__bookid": 113,
+        "_BookEntry__title": "Nihonium",
+        "_BookEntry__author": "Nh",
+        "_BookEntry__isbn": 113,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "114": {
+        "_BookEntry__bookid": 114,
+        "_BookEntry__title": "Flerovium",
+        "_BookEntry__author": "Fl",
+        "_BookEntry__isbn": 114,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "115": {
+        "_BookEntry__bookid": 115,
+        "_BookEntry__title": "Moscovium",
+        "_BookEntry__author": "Mc",
+        "_BookEntry__isbn": 115,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "116": {
+        "_BookEntry__bookid": 116,
+        "_BookEntry__title": "Livermorium",
+        "_BookEntry__author": "Lv",
+        "_BookEntry__isbn": 116,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "117": {
+        "_BookEntry__bookid": 117,
+        "_BookEntry__title": "Tennessine",
+        "_BookEntry__author": "Ts",
+        "_BookEntry__isbn": 117,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    },
+    "118": {
+        "_BookEntry__bookid": 118,
+        "_BookEntry__title": "Oganesson",
+        "_BookEntry__author": "Og",
+        "_BookEntry__isbn": 118,
+        "_BookEntry__note": null,
+        "_BookEntry__state": 1000
+    }
+}

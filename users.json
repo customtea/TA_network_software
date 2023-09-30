@@ -1,0 +1,42 @@
+{
+    "0": {
+        "_UserEntry__userid": 0,
+        "_UserEntry__name": "test",
+        "_UserEntry__user_type": 1000,
+        "_UserEntry__passwd_hash": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
+        "_UserEntry__lending_booklist": [],
+        "_UserEntry__note": null
+    },
+    "1": {
+        "_UserEntry__userid": 1,
+        "_UserEntry__name": "admin",
+        "_UserEntry__user_type": 3000,
+        "_UserEntry__passwd_hash": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+        "_UserEntry__lending_booklist": [],
+        "_UserEntry__note": null
+    },
+    "2": {
+        "_UserEntry__userid": 2,
+        "_UserEntry__name": "test01",
+        "_UserEntry__user_type": 1000,
+        "_UserEntry__passwd_hash": "678e82d907d3e6e71f81d5cf3ddacc3671dc618c38a1b7a9f9393a83d025b296",
+        "_UserEntry__lending_booklist": [],
+        "_UserEntry__note": null
+    },
+    "3": {
+        "_UserEntry__userid": 3,
+        "_UserEntry__name": "test02",
+        "_UserEntry__user_type": 1000,
+        "_UserEntry__passwd_hash": "e1c10806027637577653a25120e4a8437be5207c2e250181823a4fc323eaee39",
+        "_UserEntry__lending_booklist": [],
+        "_UserEntry__note": null
+    },
+    "4": {
+        "_UserEntry__userid": 4,
+        "_UserEntry__name": "test03",
+        "_UserEntry__user_type": 1000,
+        "_UserEntry__passwd_hash": "583a28281f4bfdd44741598f4936203ae0bdce11af0dba28045de6347205f8bf",
+        "_UserEntry__lending_booklist": [],
+        "_UserEntry__note": null
+    }
+}
