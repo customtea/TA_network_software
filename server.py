@@ -59,9 +59,10 @@ class LibrarySession(TeaSession):
             user_name = self.keywait()
             if user_name == "exit":
                 break
-            passwd_hash = self.passwait()
+            org_cc, sig, res_cc = self.challnge()
+            # logger.debug(f"ORGCC:{org_cc}, SIG:{sig}, RESCC:{res_cc}")
             user = user_man.search_user4name(user_name)
-            if user != None and user.auth(passwd_hash):
+            if user != None and org_cc == res_cc and user.auth_pubkey(sig, org_cc.encode("utf8")):
                 # print(f"{user.name()} is Authenticated")
                 logger.info(f"{user.name()} is Authenticated")
                 self.print(f"Welcom back {user.name()}")
@@ -70,7 +71,7 @@ class LibrarySession(TeaSession):
                 break
             else:
                 self.print("Login incorrect")
-        self._exit()
+        self.close()
 
 
 

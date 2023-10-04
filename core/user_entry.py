@@ -1,6 +1,7 @@
 import typing as tp
 from enum import IntEnum
 from hashlib import sha256
+from net.teaauth import TeaPublicKey #, TeaSecretKey
 
 class UserType(IntEnum):
     USER    = 1000
@@ -10,21 +11,21 @@ class UserType(IntEnum):
 
 
 class UserEntry():
-    def __init__(self, uid: int, name: str, utype: UserType, pwhash: bytes, booklist: tp.List[int], note: tp.Any=None) -> None:
+    def __init__(self, uid: int, name: str, utype: UserType, pubkey: str, booklist: tp.List[int], note: tp.Any=None) -> None:
         self.__userid = uid
         self.__name = name
         self.__user_type = utype
-        self.__passwd_hash:bytes = pwhash
+        self.__pubkey: TeaPublicKey = TeaPublicKey(pubkey)
         self.__lending_booklist: tp.List[int] = booklist
         self.__note = note
     
     @classmethod
-    def new(cls, uid, name, note: tp.Any=None) -> None:
-        return cls(uid, name, UserType.USER, sha256(name.encode()).digest(), [], note)
+    def new(cls, uid, name, pubkey, note: tp.Any=None) -> None:
+        return cls(uid, name, UserType.USER, pubkey, [], note)
     
     @classmethod
-    def load(cls, uid, name, utype, passwdhash, lendinglist, note):
-        return cls(uid, name, UserType(utype), passwdhash, lendinglist, note)
+    def load(cls, uid, name, utype, pubkey, lendinglist, note):
+        return cls(uid, name, UserType(utype), pubkey, lendinglist, note)
 
     @classmethod
     def load_dict(cls, d):
@@ -35,15 +36,18 @@ class UserEntry():
                 name = val
             elif "__user_type" in atr:
                 user_type = UserType(int(val))
-            elif "__passwd_hash" in atr:
-                passwd_hash = bytes.fromhex(val)
+            # elif "__passwd_hash" in atr:
+            # This Statement used to Convert from old Hashed Password to PublicKey
+            #     pubkey = TeaSecretKey(val).get_publickey()
+            elif "__pubkey" in atr:
+                pubkey = val
             elif "__lending_booklist" in atr:
                 lending_booklist = list(val)
             elif "__note" in atr:
                 note = val
             else:
                 pass
-        return cls(uid, name, user_type, passwd_hash, lending_booklist, note)
+        return cls(uid, name, user_type, pubkey, lending_booklist, note)
     
 
     def __str__(self) -> str:
@@ -69,15 +73,12 @@ class UserEntry():
     def note(self) -> tp.Any:
         return self.__note
     
-    def auth(self, passhash: bytes) -> bool:
-        return passhash == self.__passwd_hash
-    
-    def change_passwd(self, passhash: bytes, new_passhash:bytes) -> bool:
-        if self.auth(passhash):
-            self.__passwd_hash = new_passhash
-            return True
-        else:
-            return False
+    def auth_pubkey(self, signature, data) -> bool:
+        return self.__pubkey.verify(signature, data)
+
+    def change_pubkey(self, new_pubkey:str) -> bool:
+        self.__pubkey = TeaPublicKey(new_pubkey)
+        return True
     
     def get_lendinglist(self) -> tp.List[int]:
         return self.__lending_booklist

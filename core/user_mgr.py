@@ -3,9 +3,13 @@ import json
 
 from core.user_entry import UserEntry
 
+from net.teaauth import TeaSecretKey, TeaPublicKey
+
 def json_encode_userentry(o):
     if isinstance(o, UserEntry):
         return o.__dict__
+    elif isinstance(o, TeaPublicKey):
+        return o.get_publickey()
     elif isinstance(o, bytes):
         return o.hex()
     raise TypeError(repr(o) + " is not JSON serializable")
@@ -49,7 +53,8 @@ class UserManager():
         if u != None:
             print(f"{name} is exists")
             return False
-        user = UserEntry.new(self.__latest_id, name, note)
+        pubkey = TeaSecretKey.password(name)
+        user = UserEntry.new(self.__latest_id, name, pubkey, note)
         self.__userlist[self.__latest_id] = user
         self.__class__.__latest_id += 1
         return True
