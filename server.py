@@ -4,7 +4,7 @@ from core.user_mgr import UserManager
 
 from ui.ui_user import UserLevelInterface
 
-from net.teasocket import TeaServer, TeaSession
+from net.teaserver import TeaServer, TeaSession
 
 from logging import getLogger, StreamHandler, FileHandler, Formatter, INFO, ERROR, DEBUG
 logger = getLogger(__name__)
@@ -55,8 +55,7 @@ class LibrarySession(TeaSession):
         self.print("          Created by CustomTea                                            |___/")
 
         for i in range(3):
-            self.print("login: ",end="")
-            user_name = self.keywait()
+            user_name = self.keywait("login: ")
             if user_name == "exit":
                 break
             org_cc, sig, res_cc = self.challnge()

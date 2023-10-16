@@ -5,7 +5,7 @@ from core.user_mgr import UserManager
 from core.book_mgr import BookManager
 
 
-from net.teasocket import TeaSession
+from net.teaserver import TeaSession
 
 class AdminLevelInterface(TeaSession):
     func_table = {}
@@ -20,8 +20,7 @@ class AdminLevelInterface(TeaSession):
         self.print("Administrator Mode")
         while True:
             # self.print("Command %")
-            self.print("% ", end="")
-            text = self.keywait()
+            text = self.keywait("% ")
             cmd_text = text.split(" ")
             if cmd_text[0].lower() == "":
                 continue

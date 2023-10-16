@@ -5,8 +5,7 @@ from core.book_mgr import BookManager
 
 from ui.ui_admin import AdminLevelInterface
 
-from net.teasocket import TeaSession
-
+from net.teaserver import TeaSession
 
 class UserLevelInterface(TeaSession):
     func_table = {}
@@ -19,8 +18,7 @@ class UserLevelInterface(TeaSession):
     def shell(self) -> None:
         while True:
             # self.print("Command ?")
-            self.print("> ",end="")
-            text = self.keywait()
+            text = self.keywait("> ")
             cmd_text = text.split(" ")
             if cmd_text[0].lower() == "":
                 continue

@@ -1,4 +1,4 @@
-from net.teasocket import TeaClient
+from net.teaclient import TeaClient
 
 def main(ipaddr, port_number):
     TC = TeaClient(ipaddr, port_number)
